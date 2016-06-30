@@ -193,7 +193,6 @@ select {
   top: 0;
 }
 .header.scrolled .main-nav .nav .nav-item a {
-  color: #CC563F;
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
@@ -223,7 +222,6 @@ select {
   display: inline-block;
   text-align: center;
   line-height: 1.4;
-  background: rgba(255, 255, 255, 0.8);
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 4px;
   -webkit-border-bottom-left-radius: 4px;
@@ -542,9 +540,9 @@ select {
 }
 .section-on-bg .intro {
   color: #fff;
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 /* ======= Why ======= */
 .why {
@@ -2986,7 +2984,8 @@ select {
     text-align: center;
   }
   .header h1.logo .logo-title {
-    max-width: 200px;
+    min-width: 300px;
+    width: 65%;
     height: auto;
   }
 
@@ -2998,6 +2997,7 @@ select {
   }
   .header.navbar-fixed-top {
     position: relative;
+    background: #2D2D52;
   }
   .navbar-collapse {
     border-top: none;
@@ -3006,9 +3006,9 @@ select {
     box-shadow: none;
     width: 100%;
     left: 0;
-    top: 90px;
+    top: 80px;
     position: absolute;
-    background: #253340;
+    background: #2D2D52;
     z-index: 45;
   }
   .navbar-collapse .nav {
@@ -3210,6 +3210,10 @@ select {
     padding: 0;
   }
 }
+.header .main-nav .nav .nav-item a {
+  color: #fff;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .config-wrapper {
@@ -3239,6 +3243,7 @@ select {
   }
   .header.navbar-fixed-top {
     position: relative;
+    background: #2D2D52;
   }
   .blog-slider {
     margin-top: 0;
@@ -3348,16 +3353,12 @@ select {
     height: 80px;
   }
   .header.navbar-fixed-top {
-    position: fixed;
+    //position: fixed;
   }
   .header.scrolled {
-    background: #fff;
     z-index: 1000;
     height: 80px;
     top: 0;
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
   .header.scrolled h1.logo a {
     -webkit-border-radius: 0;
@@ -3369,12 +3370,10 @@ select {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     color: #D25E49;
-    background: #fff;
     padding-left: 0;
     padding-top: 15px;
   }
   .header.scrolled .main-nav .nav .nav-item a {
-    color: #CC563F;
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
@@ -3404,7 +3403,7 @@ select {
   }
   .promo {
     height: 620px;
-    padding-top: 200px;
+    padding-top: 100px;
   }
   .promo.section .intro {
     margin-bottom: 45px;
