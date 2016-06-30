@@ -9,7 +9,7 @@
 title: Stratnel - Infinite Possibilities
 email: stratnel@stratnel.com
 description: > # this means to ignore newlines until "baseurl:"
-  We provide manufacturing services using Additive Manufacturing methods
+  We provide manufacturing services using Additive Manufacturing methods. Based out of Bangalore.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stratnel.com" # the base hostname & protocol for your site
 # twitter_username: 
