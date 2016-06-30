@@ -250,7 +250,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 10px; }
+  padding: 30px 0; }
 
 .page-heading {
   font-size: 20px; }
