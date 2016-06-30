@@ -1,38 +1,61 @@
-<footer class="site-footer">
+<footer class="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">                    
+              <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
+                <div class="footer-col-inner">
+                  <h3 class="title">About us</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#team"><i class="fa fa-caret-right"></i>Who we are</a></li>
+                    <li><a href="http://www.naukri.com/recruiters/padmanabhan-2699682#tabs_jobs"><i class="fa fa-caret-right"></i>Jobs</a></li>
+                    <li><a href="#privacy"><i class="fa fa-caret-right"></i>Privacy</a></li>
+                  </ul>
+                </div><!--//footer-col-inner-->
+              </div><!--//foooter-col-->    
+              <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
+                <div class="footer-col-inner">
+                  <h3 class="title">Services</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#services"><i class="fa fa-caret-right"></i>Services</a></li>
+                    <li><a href="#faq"><i class="fa fa-caret-right"></i>FAQ</a></li>
+                  </ul>
+                </div><!--//footer-col-inner-->
+              </div><!--//foooter-col-->              
+              <div class="footer-col links col-md-4 col-sm-8 col-xs-12 sm-break">
+                <div class="footer-col-inner">
+                  <h3 class="title">Support</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="mailto:stratnel@stratnel.com"><i class="fa fa-envelope"></i>stratnel@stratnel.com</a></li>
+                    <li class="tel contact"><i class="fa fa-phone"></i>+91 98450 46571</li>
+                    <li class='address contact'>
+                    <i class="fa fa-map-marker pull-left"></i>        
+                    <span class="adr-group pull-left">       
+                      <span class="street-address">824 2nd Cross, 11th Main, HAL 2nd Stage</span><br>
+                      <span class="region">Indira Nagar, Bangalore</span><br>
+                      <span class="postal-code">India 560009</span><br>
+                    </span>
+                    </li>
+                  </ul>
+                </div><!--//footer-col-inner-->            
+              </div><!--//foooter-col-->   
+            </div><!--//row-->
+          </div><!--//container-->
+        </div><!--//footer-content-->
+        <div class="bottom-bar">
+          <div class="container">
+            <small class="copyright">Copyright @ 2016 Stratnel Technologies LLP</small>                
+          </div><!--//container-->
+        </div><!--//bottom-bar-->
+        </footer>
 
-  <div class="wrapper">
+      <!-- Javascript -->          
+      <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+      <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+      <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+      <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
+      <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>     
+      <script type="text/javascript" src="assets/js/main.js"></script>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
