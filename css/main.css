@@ -250,7 +250,14 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 0;
+  background: #f5f5f5; }
+
+.page-content.four-oh-four {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 0;
+  padding-right: 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -272,16 +279,25 @@ pre {
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: 30px; }
-
 .post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  line-height: 1.2em; }
+
+.post-subtitle {
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  line-height: 1.2em; }
 
 .post-content {
   margin-bottom: 30px; }
