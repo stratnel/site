@@ -8,7 +8,7 @@
 <body class="home-page">
   {% include header.html %}
 
-  <div class="page-content">
+  <div class="page-content {% if page.class %} {{ page.class }} {% endif %} {% if post.class %} {{ post.class }} {% endif %}">
     <div class="wrapper">
       {{ content }}
     </div>
