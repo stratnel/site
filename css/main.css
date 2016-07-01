@@ -457,3 +457,7 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.faq-image-container {
+  max-width: 75%;
+  margin: 2em auto; }
