@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stratnel - Infinite Possibilities</title>
+    <description>We provide manufacturing services using Additive Manufacturing methods. Based out of Bangalore.
+</description>
+    <link>https://stratnel.com/</link>
+    <atom:link href="https://stratnel.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2016-07-04 15:34:15 +0530</pubDate>
+    <lastBuildDate>2016-07-04 15:34:15 +0530</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+  </channel>
+</rss>
